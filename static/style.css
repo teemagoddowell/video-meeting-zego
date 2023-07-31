@@ -1,0 +1,35 @@
+body {
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+#root {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Remove the outline from the video embed */
+        #root video {
+            outline: none;
+        }
+
+        /* Style the "Back to Dashboard" button */
+        .back-to-dashboard {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .back-to-dashboard button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hide any content that overflows the viewport */
+        body {
+            overflow: hidden;
+        }
